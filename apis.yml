@@ -1,22 +1,67 @@
 aid: datagravity
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/datagravity.png
 name: DataGravity
-description: DataGravity is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'DataGravity was a data management and security software company founded
+  in April 2012 in Nashua, New Hampshire by Paula Long (co-founder of EqualLogic) and
+  John Joseph. It pioneered the "data-aware storage" category, shipping hybrid storage
+  arrays that indexed, classified, and audited data in place so that security, governance,
+  and search became properties of the storage tier rather than bolt-on tooling. The
+  company raised venture funding from Andreessen Horowitz, General Catalyst, CRV and
+  others, won Best of Show at VMworld 2014, and began shipping in October 2014. In
+  February 2016 it pivoted from appliances to a software-only behavioral data-security
+  product. DataGravity ceased operations in June 2017 and its assets were assigned
+  to a liquidator; HyTrust acquired the technology and roughly twenty employees, folding
+  the product into HyTrust CloudAdvisor (HyTrust was itself acquired by Entrust in
+  2021). The datagravity.com domain no longer belongs to the company and now 301-redirects
+  to an unrelated business (anomalo.com). No public API, developer portal, documentation,
+  or machine-readable specification survives, so there is no API surface for this profile
+  to describe.'
 url: https://raw.githubusercontent.com/api-evangelist/datagravity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-status: defunct
+x-defunct:
+  ceased: '2017-06'
+  outcome: assets acquired by HyTrust (product became HyTrust CloudAdvisor); HyTrust
+    acquired by Entrust in 2021
+  domain_status: datagravity.com 301-redirects to https://www.anomalo.com/ (unrelated
+    owner)
+  verified: '2026-07-20'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Defunct
+- Storage
+- Data Management
+- Data Security
+- Data Governance
+- Enterprise Infrastructure
+- Venture Backed
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
